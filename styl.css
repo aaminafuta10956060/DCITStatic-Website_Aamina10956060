@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 100%;
+    background-image: linear-gradient(to top, #44300c 0%,#f5ec9e 100% ), url(imagesc/pink.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    min-height: 100vh;
+    
+    color: cornsilk;
+    
+}
+
+nav{
+   
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+    position: absolute;
+}
+
+nav .menu-img{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+.mmenu{
+    margin-top: 20px;
+    padding-left: 550px;
+    width: 1350px;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    margin-left: 300px;
+    width: 40%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.picture-container{
+    position: relative;
+    top: 0;
+    left: 22%;
+    width: 200px;
+}
+
+.annie{
+    width:  200%;
+    margin-left: -140px;
+    margin-top: 250px;
+}
+
+.text-container{
+    margin-top: -225px;
+    margin-left: 600px;
+    width: 50%;
+}
+
+.text-container2{
+    margin-top: 205px;
+    margin-left: 150px;
+    width: 88%;
+}
+
+.picscontainer{
+    width: 100%;
+    position: relative;
+}
+
+.hospic1{
+    width: 400px;
+    position: relative;
+}
+
+.hospic2{
+    width: 400px;
+    
+    margin-left: 50px ;
+}
+
+.hospic3{
+    width: 400px;
+    position: absolute;
+    margin-left: -400px;
+}
+
+footer{
+    color: black;
+    background: #c4b813;
+    height: 200px;
+    
+}
+
+.t3xtcontainer{
+    margin-left: 40px;
+    
+    width: 650px;
+}
+
+.socials{
+    width: 90px;
+    padding-top: 40px;
+}
+
+.t3xtcontainer2{
+    margin-top: -55px;
+    margin-left: 650px;
+}
+
+
+.nyaho{
+    width: 190px;
+}
