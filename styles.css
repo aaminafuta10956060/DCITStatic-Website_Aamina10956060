@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: auto;
+    width: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    overflow: hidden;
+    background: rgba(31, 163, 101, 0.486);
+    font-weight: bold;
+    z-index: 999;
+    margin: 0 0;
+    padding: 1% 0% ;
+}
+
+nav{
+    width: 100%;
+    position: sticky;
+    margin: 10px 0%;
+    z-index: 1;
+    display: flex;
+    flex: 20%;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.hlogo{
+    flex: 20%;
+    position: sticky;
+    align-content: center;
+}
+
+.hlogo img{
+    width: 50px;
+    height: 50px;
+    padding-left: 25%;
+    
+}
+
+.hlogo2{
+    font-size: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    flex: 100%;
+    width: 0 9px;
+    position: sticky;
+    
+    background-image:linear-gradient(to top, rgb(164, 197, 240) 0%, rgb(42, 165, 144) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hlogo2:hover{
+    cursor: pointer;
+}
+
+.menu{
+    height:auto;
+    display: inline-flex;
+    position: sticky;
+    font-size: 1rem;
+    padding:  2vh;
+    align-content: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu li{
+    display: inline-flex;
+    padding: 0 10px;
+    position: none;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu li a{
+    transition: all 0.3s ease 0s;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: rgb(181, 181, 245);
+}
+
+#hbutton{
+    height: 40px;
+    width: 80px;
+    background: rebeccapurple;
+    display: flex;
+    flex: 20%;
+    text-decoration: none;
+    position: center;
+    font-size: 16px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#hbutton:hover{
+    background:  rgb(48, 104, 129)  ;
+    transition: all .5s ease;
+}
+
+#hbutton li{
+    display: inline-flex;
+    flex: 20px;
+    padding: 0 10px;
+    position: sticky;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+@media screen and(max-width: 960px) {
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+
+    .menu{
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 0;
+        transition: all .6s ease;
+        height: 50vh;
+        z-index: -1;
+    }
+}
+.mbody{
+    height: auto;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    background: rgba(176, 206, 211, 0.733);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(73, 70, 51);
+    font-size: 1rem;
+    font-weight: lighter;
+    margin: 0px;
+    text-align: center;
+    
+       
+}
+
+.mfooter{
+    height: auto;
+    width: auto;
+    background : rgba(0, 20, 34, 0.952) ;
+    color:gray;
+    position: relative;
+
+}
+
+
+.pink{
+    width: 400px;
+}
+
+.cactus{
+    width: 1000px;
+}
+
+.pot{
+    width: 400px;
+    margin-top: 30px;
+}
+
+.back2{
+    width: 400px;
+    margin-top: -200px;
+}
+
+.ot{
+    width: 400px;
+}
+
+.t3xtcontainer{
+    margin-left: 40px;
+    
+    width: 650px;
+}
+
+.socials{
+    width: 90px;
+    padding-top: 40px;
+}
+
+.t3xtcontainer2{
+    margin-top: -55px;
+    margin-left: 650px;
+}
+
+
+.nyaho{
+    width: 110px;
+}
